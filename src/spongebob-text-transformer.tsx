@@ -21,6 +21,7 @@ export default function Command() {
 		>
 			<List.Item
 				title={transformedText}
+				icon="spongebob.jpg"
 				actions={
 					<ActionPanel>
 						<Action.CopyToClipboard content={transformedText} />
