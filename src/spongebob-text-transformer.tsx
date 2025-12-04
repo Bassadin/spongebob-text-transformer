@@ -1,15 +1,9 @@
 import { Action, ActionPanel, List } from "@vicinae/api";
 import { useState } from "react";
+import { toSpongebobCase } from "./utils";
 
 export default function Command() {
 	const [searchText, setSearchText] = useState("");
-
-	function toSpongebobCase(text: string): string {
-		return text
-			.split("")
-			.map((char) => (Math.random() > 0.5 ? char.toLowerCase() : char.toUpperCase()))
-			.join("");
-	}
 
 	const transformedText = toSpongebobCase(searchText || "Spongebob Text Transformer");
 
