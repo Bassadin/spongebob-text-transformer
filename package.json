@@ -3,7 +3,7 @@
   "name": "spongebob-text-transformer",
   "title": "Spongebob Text Transformer",
   "description": "Transform text to spongebob case",
-  "categories": ["vicinae"],
+  "categories": [],
   "license": "MIT",
   "author": "bassadin",
   "version": "0.1.0",
